@@ -23,7 +23,7 @@ def Input_Output():
 
     result = ""
     if st.button("Click here to Predict"):
-        result = predict_iris_variety(sepal_length, sepal_width, petal_width, petal_width)
+        result = predict_iris_variety(sepal_length, sepal_width, petal_length, petal_width)
         st.balloons()
     st.success('The output is {}'.format(result))
 
